@@ -1,0 +1,28 @@
+.red {
+    color: red;
+}
+
+.orange {
+    color: orangered;
+}
+
+.yellow {
+    color: yellow;
+    text-shadow: 1px 1px 0px black;
+}
+
+.green {
+    color: green;
+}
+
+.cyan {
+    color: cyan;
+}
+
+.blue {
+    color: blue;
+}
+
+.purple {
+    color: purple;
+}
