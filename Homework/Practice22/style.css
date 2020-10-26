@@ -1,0 +1,55 @@
+.title {
+    background-color: red;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+
+.whitetext {
+    color: white;
+    font-size: 30px;
+}
+
+.blacktext {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+}
+
+div>div {
+    display: block;
+    width: 50%;
+    height: 500px;
+    background-color: red;
+}
+
+div>div>div {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.blackbg>* {
+    background-color: black;
+}
+
+.pad {
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: red;
+    font-size: 30px;
+    font-style: italic;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footerwhite {
+    text-decoration-line: underline;
+    color: white;
+}
