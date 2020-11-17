@@ -1,0 +1,104 @@
+[class*="line"] {
+    position: absolute;
+    height: 5px;
+    width: 600px;
+    background-color: gold;
+    left: 100px;
+    top: 95px;
+    align-content: center;
+    border-style: solid;
+    border-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line2 {
+    left: 750px;
+    width: 100px;
+    border-color: lightgray;
+    background-color: lightgoldenrodyellow;
+}
+
+[class*="yellow"] {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    border-radius: 50%;
+    left: 50px;
+    top: 50px;
+    align-content: center;
+    border-style: solid;
+    border-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow2 {
+    left: 250px;
+    top: 50px;
+}
+
+.yellow3 {
+    left: 450px;
+    top: 50px;
+}
+
+.green {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: limegreen;
+    border-radius: 50%;
+    left: 650px;
+    top: 50px;
+    align-content: center;
+    border-style: solid;
+    border-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slate {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50%;
+    left: 850px;
+    top: 50px;
+    align-content: center;
+    border-style: solid;
+    border-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -2px 2px 0 yellowgreen,
+        2px 2px 0 yellowgreen,
+        2px -2px 0 yellowgreen,
+        -2px -2px 0 yellowgreen;
+}
+
+.ptext {
+    text-shadow: -2px 2px 0 purple,
+        2px 2px 0 purple,
+        2px -2px 0 purple,
+        -2px -2px 0 purple;
+}
+
+.ltext {
+    color: black;
+    text-shadow: -2px 2px 0 lightgray,
+        2px 2px 0 lightgray,
+        2px -2px 0 lightgray,
+        -2px -2px 0 lightgray;
+}

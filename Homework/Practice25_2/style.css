@@ -1,0 +1,18 @@
+.black{
+    border-style: solid;
+    border-color: lightblue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: darkviolet;
+}
+.white{
+    border-style: solid;
+    border-color: lightblue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: saddlebrown;
+}
